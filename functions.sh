@@ -1,0 +1,34 @@
+#!/usr/bin/bash
+#### How functions work in shell
+### it is a code log that implement a set of operations
+
+#functions name(){
+#	Commands
+#}
+
+#name() {
+#	Commands
+#}
+#function Hello(){
+# echo "Hello"
+#}
+#quit () {
+#    exit
+#  }
+#Hello
+
+#echo "foo"
+#quit
+
+
+
+function print(){
+	echo $1 $2 $3
+}
+quit () {
+    exit
+}
+print Hello World Again
+
+echo "foo"
+quit
