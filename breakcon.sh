@@ -3,14 +3,14 @@
 # break statment is used to exit the currunt loop before normal exicution
 
 ### Break statment
-#for (( i=1 ; i<=10 ; i++ ))
-#do 
-#	if [ $i -gt 5 ]
-#	then 
-#		break
-#	fi
-#	echo "$i"
-#done
+for (( i=1 ; i<=10 ; i++ ))
+do 
+	if [ $i -gt 5 ]
+	then 
+		break
+	fi
+	echo "$i"
+done
 
 
 
